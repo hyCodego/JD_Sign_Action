@@ -13,6 +13,11 @@ on:
         branches:
             - master
     schedule:
+        - cron: '46 10 * * *'
+    push:
+        branches:
+            - master
+    schedule:
         - cron: '56 08 * * *'
   watch:
     types: started
