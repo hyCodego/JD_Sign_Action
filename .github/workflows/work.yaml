@@ -6,14 +6,14 @@ on:
     types: published
  # push:
   #   branches:
-       - master
+      # - master
  # schedule:
    # - cron: '25 08 * * *'
     push:
         branches:
             - master
     schedule:
-        - cron: '42 08 * * *'
+        - cron: '56 08 * * *'
   watch:
     types: started
     
