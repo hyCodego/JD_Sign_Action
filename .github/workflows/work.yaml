@@ -4,21 +4,11 @@ on:
   repository_dispatch:
   release:
     types: published
- # push:
+  # push:
   #   branches:
-      # - master
- # schedule:
-   # - cron: '25 08 * * *'
-    push:
-        branches:
-            - master
-    schedule:
-        - cron: '46 10 * * *'
-    push:
-        branches:
-            - master
-    schedule:
-        - cron: '56 08 * * *'
+  #     - master
+  schedule:
+    - cron: 51 10 * * *
   watch:
     types: started
     
